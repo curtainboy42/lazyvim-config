@@ -3,4 +3,5 @@
 -- Add any additional keymaps here
 -- Better terminal escape
 vim.keymap.set("t", "jk", [[<C-\><C-n>]], { desc = "Exit terminal mode" })
+vim.keymap.set('n', '<leader>tt', '<cmd>ToggleTerm<CR>', { noremap = true, silent = true })
 
